@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gal</title>
+</head>
+<style>
+#myImg {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ .contain {
+  position: relative;
+  width: 30%;
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: grey;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  opacity: 0.6;
+  transition: 4s ease;
+}
+
+.contain:hover .overlay {
+  bottom: 0;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.tex {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+<body>
+<div style="background-color: red;">
+
+<div class="contain" style="margin-left: 5%; margin-top: 5%;">
+<img id="myImg" src="car1.jpg" alt="Snow" name="myModal" style=" width:100%; position: relative;" onclick="mod(this);">
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="img01" src="car1.jpg">
+</div>
+<div class="overlay">
+<div class="tex">Hello World</div>
+</div>
+</div>
+
+<div class="contain" style="margin-left: 5%; margin-top: 5%;">
+<img id="myImg" src="car1.jpg" alt="Snow" name="myModal" style=" width:100%; position: relative;" onclick="mod(this);">
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="img01" src="car1.jpg">
+</div>
+<div class="overlay">
+<div class="tex">Hello World</div>
+</div>
+</div>
+
+<div class="contain" style="margin-left: 5%; margin-top: 5%;">
+<img id="myImg" src="car1.jpg" alt="Snow" name="myModal" style=" width:100%;" onclick="mod(this);">
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="img01" src="car1.jpg">
+</div>
+<div class="overlay">
+<div class="tex">Hello World</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	function mod(img){
+    var modal = document.getElementById(img.name);
+    modal.style.display = "block";
+
+var span = document.getElementsByClassName("close")[0];
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+}
+</script>
+</body>
+</html>

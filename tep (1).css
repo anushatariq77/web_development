@@ -1,0 +1,29 @@
+.sign{
+    width: 100%;
+	height: 60px;
+	background-color:grey; 
+	line-height: 60px;
+	padding: 0 10px;
+	position: relative;
+
+}
+
+nav.sign ul
+{
+	float: right;
+	margin-left: 205px;
+}
+nav.sign ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+}
+nav.sign ul li:hover{
+	background-color: #f39d1a;
+}
+nav.sign ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-size: 15px;
+}

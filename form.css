@@ -1,0 +1,30 @@
+*
+{ color: white;
+font-family: sans-serif;
+font-weight: bold;
+letter-spacing: normal;
+ }
+body
+{
+	background: url(car.jpg);
+	background-size: cover;
+}
+.forms
+{ 
+  border:0px solid white;
+  padding:50px 60px;
+  margin-top: 20vh;
+ -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+button{
+	color: black;
+	min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    line-height: 126%;
+  
+}

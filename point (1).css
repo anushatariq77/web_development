@@ -1,0 +1,111 @@
+
+	.bg{
+		
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://images.pexels.com/photos/144171/pexels-photo-144171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); background-size: cover;
+    
+	}
+
+
+
+.expand1{
+	transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+     width:30%;
+     height: 120px;
+     
+    background-color: #7a4b0e;
+    margin-left: 20%;
+   
+    margin-top: 7%;
+    margin-bottom: 100px;
+    padding: 0 0.7em 0 1.4em;
+    border: 0.1em solid black;
+    border-radius: 10px 10em 10em 10px;
+    box-shadow:-1px 4px 26px 5px rgba(0,0,0,0.75);
+}
+.expand2{
+	transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+     width:30%;
+     height: 120px;
+     
+    background-color: #7a4b0e;
+    margin-left: 20%;
+   
+    margin-top: -1%;
+    margin-bottom: 100px;
+    padding: 0 0.7em 0 1.4em;
+    border: 0.1em solid black;
+    border-radius: 10px 10em 10em 10px;
+    box-shadow:-1px 4px 26px 5px rgba(0,0,0,0.75);
+}
+.expand3{
+	transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+     width:30%;
+     height: 120px;
+     
+    background-color: #7a4b0e;
+    margin-left: 20%;
+   
+    margin-top: -1%;
+    margin-bottom: 100px;
+    padding: 0 0.7em 0 1.4em;
+    border: 0.1em solid black;
+    border-radius: 10px 10em 10em 10px;
+    box-shadow:-1px 4px 26px 5px rgba(0,0,0,0.75);
+}
+.expand4{
+	transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+     width:30%;
+     height: 120px;
+     
+    background-color: #7a4b0e;
+    margin-left: 20%;
+   
+    margin-top: -1%;
+    margin-bottom: 100px;
+    padding: 0 0.7em 0 1.4em;
+    border: 0.1em solid black;
+    border-radius: 10px 10em 10em 10px;
+    box-shadow:-1px 4px 26px 5px rgba(0,0,0,0.75);
+}
+.expand1:hover{
+	width: 60%;
+	height: 120px;
+	background-color: #af0c1f;
+	
+
+}
+.expand2:hover{
+	width: 60%;
+	height: 120px;
+	background-color: orange;
+	
+
+}
+.expand3:hover{
+	width: 60%;
+	height: 120px;
+	background-color: #32a50e;
+	
+
+}
+.expand4:hover{
+	width: 60%;
+	height: 120px;
+	background-color: dodgerblue;
+	
+
+}
+h3::first-letter{
+	font-size: 250%;
+}
+h4::first-letter{
+	font-size: 200%;
+}

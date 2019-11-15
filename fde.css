@@ -1,0 +1,15 @@
+
+		.slides{
+		position: absolute;
+		animation: fade 8s infinite;
+		-webkit-animation: fade 8s infinite;
+	}
+
+	}
+	@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}

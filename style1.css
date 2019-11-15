@@ -1,0 +1,58 @@
+body{
+	width: 600px;
+	margin: 20px auto;
+	font-family: sans-serif;
+}
+
+h2{
+	font-size: 39px;
+	line-height: 43px;
+}
+
+a{
+	color: blue;
+}
+
+article img
+{
+	float: left;
+	margin-right: 30px;
+}
+
+article h2{
+	margin-top: 0;
+}
+
+.meta
+{
+	padding-left: 0;
+}
+
+.meta a
+{
+    font-style: italic;
+    font-size: 14px
+}
+
+.meta li:after
+{
+	content:'\\';
+	padding:0 2px;
+	color:#999;
+}
+
+.meta li:last-child:after
+{
+	content: none;
+}
+
+.meta li{
+	display: inline;
+}
+
+
+.preview{
+	float:right
+	width:370px;
+}
+

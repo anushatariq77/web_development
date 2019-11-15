@@ -1,0 +1,15 @@
+.side-block{
+	position: absolute; width: 15%; height: 100vh; margin-top:-102%; background-color:white; opacity: 0.5;margin-left: 0px;
+}
+.text-block {
+    width: 30%;
+    opacity: 0.6;
+    position: absolute;
+    top: 400px;
+    bottom: 20px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    display: inline-block;
+}
